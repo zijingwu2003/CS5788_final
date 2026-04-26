@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local data and Hugging Face cache
+data/raw/
+data/processed/
+
+# Model outputs/checkpoints
+outputs/
+checkpoints/
+models/
+runs/
+wandb/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
