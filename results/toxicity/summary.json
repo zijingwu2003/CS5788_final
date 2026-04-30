@@ -1,0 +1,15 @@
+{
+  "base": {
+    "num_params": 124439808,
+    "num_trainable_params": 124439808,
+    "model_size_mb": 474.7,
+    "avg_toxicity_score": 0.5296649814452188,
+    "prob_toxicity": 0.5421184320266889,
+    "perplexity": 16.7456,
+    "total_generation_time_s": 270.79,
+    "avg_generation_time_s": 0.2258,
+    "tokens_per_second": 221.3,
+    "peak_inference_memory_mb": 986.7,
+    "num_samples": 1199
+  }
+}
