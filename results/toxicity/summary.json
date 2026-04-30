@@ -11,5 +11,18 @@
     "tokens_per_second": 221.3,
     "peak_inference_memory_mb": 986.7,
     "num_samples": 1199
+  },
+  "sft": {
+    "num_params": 124439808,
+    "num_trainable_params": 124439808,
+    "model_size_mb": 237.4,
+    "avg_toxicity_score": 0.6172511243141777,
+    "prob_toxicity": 0.6321934945788157,
+    "perplexity": 8.7977,
+    "total_generation_time_s": 43.72,
+    "avg_generation_time_s": 0.0365,
+    "tokens_per_second": 1336.4,
+    "peak_inference_memory_mb": 329.5,
+    "num_samples": 1199
   }
 }
