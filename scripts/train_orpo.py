@@ -143,6 +143,11 @@ class ORPOTrainer(Trainer):
 
         return selected.sum(-1) / mask.float().sum(-1).clamp(min=1.0)      # [B]
 
+    def prediction_step(self, model, inputs, prediction_loss_only, ignore_keys=None):
+        with torch.no_grad():
+            loss = self.compute_loss(model, inputs)
+        return loss.detach(), None, None
+
     def compute_loss(
         self,
         model: AutoModelForCausalLM,
@@ -246,6 +251,7 @@ def main() -> None:
         fp16=args.fp16,
         bf16=False,
         use_cpu=not torch.cuda.is_available(),
+        remove_unused_columns=False,
         report_to="none",
     )
 
