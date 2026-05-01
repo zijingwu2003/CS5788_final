@@ -83,7 +83,6 @@ def main() -> None:
         learning_rate=args.lr,
         beta=args.beta,
         max_length=args.max_length,
-        max_prompt_length=args.max_prompt_length,
         eval_strategy="epoch",
         save_strategy="epoch",
         save_total_limit=1,
