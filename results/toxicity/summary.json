@@ -24,5 +24,18 @@
     "tokens_per_second": 1336.4,
     "peak_inference_memory_mb": 329.5,
     "num_samples": 1199
+  },
+  "dpo": {
+    "num_params": 124439808,
+    "num_trainable_params": 124439808,
+    "model_size_mb": 237.4,
+    "avg_toxicity_score": 0.31143830050891996,
+    "prob_toxicity": 0.30692243536280234,
+    "perplexity": 10.7643,
+    "total_generation_time_s": 45.71,
+    "avg_generation_time_s": 0.0381,
+    "tokens_per_second": 1310.1,
+    "peak_inference_memory_mb": 328.9,
+    "num_samples": 1199
   }
 }
