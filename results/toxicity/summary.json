@@ -37,5 +37,18 @@
     "tokens_per_second": 1310.1,
     "peak_inference_memory_mb": 328.9,
     "num_samples": 1199
+  },
+  "orpo": {
+    "num_params": 124439808,
+    "num_trainable_params": 124439808,
+    "model_size_mb": 237.4,
+    "avg_toxicity_score": 0.4357244049906156,
+    "prob_toxicity": 0.4370308590492077,
+    "perplexity": 13.4493,
+    "total_generation_time_s": 10.79,
+    "avg_generation_time_s": 0.009,
+    "tokens_per_second": 5555.2,
+    "peak_inference_memory_mb": 330.2,
+    "num_samples": 1199
   }
 }
