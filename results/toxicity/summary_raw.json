@@ -1,0 +1,54 @@
+{
+  "base": {
+    "num_params": 124439808,
+    "num_trainable_params": 124439808,
+    "model_size_mb": 474.7,
+    "avg_toxicity_score": 0.5296649814452188,
+    "prob_toxicity": 0.5421184320266889,
+    "perplexity": 16.7456,
+    "total_generation_time_s": 270.79,
+    "avg_generation_time_s": 0.2258,
+    "tokens_per_second": 221.3,
+    "peak_inference_memory_mb": 986.7,
+    "num_samples": 1199
+  },
+  "sft": {
+    "num_params": 124439808,
+    "num_trainable_params": 124439808,
+    "model_size_mb": 237.4,
+    "avg_toxicity_score": 0.4443811153618423,
+    "prob_toxicity": 0.44787322768974147,
+    "perplexity": 13.3768,
+    "total_generation_time_s": 41.24,
+    "avg_generation_time_s": 0.0344,
+    "tokens_per_second": 1453.4,
+    "peak_inference_memory_mb": 330.2,
+    "num_samples": 1199
+  },
+  "dpo": {
+    "num_params": 124439808,
+    "num_trainable_params": 124439808,
+    "model_size_mb": 237.4,
+    "avg_toxicity_score": 0.19396687316402617,
+    "prob_toxicity": 0.18932443703085905,
+    "perplexity": 16.3584,
+    "total_generation_time_s": 41.44,
+    "avg_generation_time_s": 0.0346,
+    "tokens_per_second": 1446.6,
+    "peak_inference_memory_mb": 330.0,
+    "num_samples": 1199
+  },
+  "orpo": {
+    "num_params": 124439808,
+    "num_trainable_params": 124439808,
+    "model_size_mb": 237.4,
+    "avg_toxicity_score": 0.4357244049906156,
+    "prob_toxicity": 0.4370308590492077,
+    "perplexity": 13.4493,
+    "total_generation_time_s": 10.79,
+    "avg_generation_time_s": 0.009,
+    "tokens_per_second": 5555.2,
+    "peak_inference_memory_mb": 330.2,
+    "num_samples": 1199
+  }
+}
